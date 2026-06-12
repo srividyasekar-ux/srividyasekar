@@ -1,0 +1,28 @@
+steps:
+  - label: ':sparkles: Lint'
+    plugins:
+      - plugin-linter#v2.0.0:
+          id: instacart/template  # TEMPLATE: Change me
+  - label: ':shell: Shellcheck'
+    plugins:
+      - shellcheck#v1.1.2:
+          files:
+            - hooks/**
+            - lib/**
+      - instacart/isc-failure-reason#v0.0.7:
+  - label: 'Common libraries up-to-date'
+    if: build.env("BUILDKITE_PIPELINE_SLUG") != "buildkite-plugin-template" # TEMPLATE: Remove me
+    commands:
+      - "curl $$(gh api -H \"Accept: application/vnd.github+json\" /repos/instacart/buildkite-plugin-template/contents/lib/helpers.bash | jq -r .download_url) -o lib/helpers.bash"
+    plugins:
+      - instacart/git-diff#v1.1.0:
+          save_annotations: true
+          additional_help_pre_text: |
+            Please grab the latest helpers.bash from https://github.com/instacart/buildkite-plugin-template/blob/master/lib/helpers.bash
+      - instacart/isc-failure-reason#v0.0.7:
+  - label: "Unit Tests"
+    plugins:
+      - docker-compose#v4.12.0:
+          run: tests
+          config: ".isc/docker-compose.yml"
+      - instacart/isc-failure-reason#v0.0.7:

@@ -1,0 +1,7 @@
+name: Template  # TEMPLATE: Change me
+description: Template  # TEMPLATE: Change me
+author: https://github.com/instacart
+requirements: []
+configuration:
+  properties: {}  # TEMPLATE: Add your properties here
+  additionalProperties: false
