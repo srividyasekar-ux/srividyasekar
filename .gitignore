@@ -3,3 +3,4 @@
 
 # Large generated data files (exceed GitHub 100MB limit)
 cx_retailer_llm/cx_retailer_transcripts_summarized.csv
+cx_retailer_llm/cx_summary_checkpoint.csv
