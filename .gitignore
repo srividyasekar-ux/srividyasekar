@@ -1,2 +1,5 @@
 # Cursor IDE debug/session artifacts
 .cursor/
+
+# Large generated data files (exceed GitHub 100MB limit)
+cx_retailer_llm/cx_retailer_transcripts_summarized.csv
