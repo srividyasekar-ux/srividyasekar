@@ -1,0 +1,14 @@
+{"sessionId": "7a7820", "runId": "post-fix", "hypothesisId": "H1", "location": "cx_taxonomy.ipynb:install", "message": "install_cell_start", "data": {"uses_pip_magic": true}, "timestamp": 1781546232022}
+{"sessionId": "7a7820", "runId": "post-fix", "hypothesisId": "H4", "location": "cx_taxonomy.ipynb:install", "message": "import_check", "data": {"package": "pandas", "found": true}, "timestamp": 1781546328724}
+{"sessionId": "7a7820", "runId": "post-fix", "hypothesisId": "H4", "location": "cx_taxonomy.ipynb:install", "message": "import_check", "data": {"package": "instaquery", "found": true}, "timestamp": 1781546328725}
+{"sessionId": "7a7820", "runId": "post-fix", "hypothesisId": "H4", "location": "cx_taxonomy.ipynb:install", "message": "import_check", "data": {"package": "numpy", "found": true}, "timestamp": 1781546328725}
+{"sessionId": "7a7820", "runId": "post-fix", "hypothesisId": "H4", "location": "cx_taxonomy.ipynb:install", "message": "import_check", "data": {"package": "matplotlib", "found": true}, "timestamp": 1781546328726}
+{"sessionId": "7a7820", "runId": "post-fix", "hypothesisId": "H4", "location": "cx_taxonomy.ipynb:install", "message": "import_check", "data": {"package": "openai", "found": true}, "timestamp": 1781546328726}
+{"sessionId": "7a7820", "runId": "post-fix", "hypothesisId": "H4", "location": "cx_taxonomy.ipynb:install", "message": "import_check", "data": {"package": "snowflake", "found": true}, "timestamp": 1781546328726}
+{"sessionId": "7a7820", "runId": "post-fix", "hypothesisId": "H1", "location": "cx_taxonomy.ipynb:install", "message": "install_cell_start", "data": {"uses_pip_magic": true}, "timestamp": 1781546593808}
+{"sessionId": "7a7820", "runId": "post-fix", "hypothesisId": "H4", "location": "cx_taxonomy.ipynb:install", "message": "import_check", "data": {"package": "pandas", "found": true}, "timestamp": 1781546594978}
+{"sessionId": "7a7820", "runId": "post-fix", "hypothesisId": "H4", "location": "cx_taxonomy.ipynb:install", "message": "import_check", "data": {"package": "instaquery", "found": true}, "timestamp": 1781546594978}
+{"sessionId": "7a7820", "runId": "post-fix", "hypothesisId": "H4", "location": "cx_taxonomy.ipynb:install", "message": "import_check", "data": {"package": "numpy", "found": true}, "timestamp": 1781546594979}
+{"sessionId": "7a7820", "runId": "post-fix", "hypothesisId": "H4", "location": "cx_taxonomy.ipynb:install", "message": "import_check", "data": {"package": "matplotlib", "found": true}, "timestamp": 1781546594979}
+{"sessionId": "7a7820", "runId": "post-fix", "hypothesisId": "H4", "location": "cx_taxonomy.ipynb:install", "message": "import_check", "data": {"package": "openai", "found": true}, "timestamp": 1781546594980}
+{"sessionId": "7a7820", "runId": "post-fix", "hypothesisId": "H4", "location": "cx_taxonomy.ipynb:install", "message": "import_check", "data": {"package": "snowflake", "found": true}, "timestamp": 1781546594980}
