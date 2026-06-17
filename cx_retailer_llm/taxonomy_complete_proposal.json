@@ -1,0 +1,1100 @@
+{
+  "L1_categories": [
+    {
+      "id": "L1_01",
+      "name": "Order Status and Delivery Issues",
+      "description": "Covers inquiries related to order status, delivery delays, missing or incorrect deliveries, and related updates.",
+      "keywords": [
+        "order status",
+        "delivery delay",
+        "missing order",
+        "incorrect delivery",
+        "delivery status",
+        "ETA",
+        "delivered to wrong address",
+        "not received",
+        "delivery confirmation",
+        "driver assignment",
+        "order stuck",
+        "delivery location",
+        "late delivery",
+        "delivery update",
+        "delivery issue",
+        "reassignment",
+        "delivery photo",
+        "driver behavior",
+        "address verification",
+        "delayed shopper"
+      ],
+      "estimated_pct": 30,
+      "example_ids": [
+        1,
+        7,
+        58,
+        185,
+        495
+      ],
+      "L2_categories": [
+        {
+          "id": "L1_01_L2_01",
+          "name": "Order Status Inquiries",
+          "description": "Covers requests for updates on the status of an order, including whether it has been assigned, picked, or delivered.",
+          "keywords": [
+            "order status",
+            "order update",
+            "delivery time",
+            "assigned shopper",
+            "ETA"
+          ],
+          "example_ids": [
+            7,
+            12,
+            60,
+            91,
+            147
+          ]
+        },
+        {
+          "id": "L1_01_L2_02",
+          "name": "Delivery Delays",
+          "description": "Covers issues related to delayed deliveries, including inquiries about reasons for delays and requests for updated delivery times.",
+          "keywords": [
+            "delayed delivery",
+            "delivery delay",
+            "late order",
+            "reschedule delivery"
+          ],
+          "example_ids": [
+            23,
+            31,
+            36,
+            98,
+            282
+          ]
+        },
+        {
+          "id": "L1_01_L2_03",
+          "name": "Missing or Incorrect Deliveries",
+          "description": "Covers reports of orders not being delivered, delivered to the wrong address, or containing missing or incorrect items.",
+          "keywords": [
+            "missing order",
+            "wrong delivery",
+            "incorrect items",
+            "not delivered",
+            "wrong address"
+          ],
+          "example_ids": [
+            19,
+            25,
+            44,
+            130,
+            224
+          ]
+        },
+        {
+          "id": "L1_01_L2_04",
+          "name": "Order Cancellations",
+          "description": "Covers requests to cancel orders for various reasons, including customer requests, out-of-stock items, or system issues.",
+          "keywords": [
+            "cancel order",
+            "order cancellation",
+            "customer request",
+            "out of stock",
+            "duplicate order"
+          ],
+          "example_ids": [
+            3,
+            11,
+            61,
+            95,
+            273
+          ]
+        },
+        {
+          "id": "L1_01_L2_05",
+          "name": "Refunds and Compensation",
+          "description": "Covers requests for refunds or compensation due to missing items, incorrect orders, or delivery issues.",
+          "keywords": [
+            "refund",
+            "compensation",
+            "missing items refund",
+            "incorrect order refund"
+          ],
+          "example_ids": [
+            37,
+            51,
+            110,
+            286,
+            344
+          ]
+        },
+        {
+          "id": "L1_01_L2_06",
+          "name": "Technical or App Issues",
+          "description": "Covers issues with app functionality, such as errors during checkout, payment declines, or device malfunctions affecting order processing.",
+          "keywords": [
+            "app issue",
+            "technical issue",
+            "payment declined",
+            "device error",
+            "checkout issue"
+          ],
+          "example_ids": [
+            2,
+            17,
+            49,
+            184,
+            267
+          ]
+        },
+        {
+          "id": "L1_01_L2_07",
+          "name": "Shopper or Driver Behavior",
+          "description": "Covers complaints or concerns about shopper or driver behavior, including unprofessional conduct, communication issues, or policy violations.",
+          "keywords": [
+            "shopper behavior",
+            "driver behavior",
+            "unprofessional",
+            "rude",
+            "policy violation"
+          ],
+          "example_ids": [
+            10,
+            47,
+            141,
+            190,
+            240
+          ]
+        },
+        {
+          "id": "L1_01_L2_08",
+          "name": "Order Modifications",
+          "description": "Covers requests to modify orders, such as adding items, changing delivery times, or updating customer information.",
+          "keywords": [
+            "modify order",
+            "add items",
+            "change delivery time",
+            "update address"
+          ],
+          "example_ids": [
+            21,
+            89,
+            175,
+            237,
+            283
+          ]
+        }
+      ]
+    },
+    {
+      "id": "L1_02",
+      "name": "Order Modifications and Cancellations",
+      "description": "Covers requests to modify or cancel orders due to customer changes, unavailable items, or system issues.",
+      "keywords": [
+        "order cancellation",
+        "cancel order",
+        "modify order",
+        "unavailable items",
+        "change delivery time",
+        "switch to pickup",
+        "duplicate order",
+        "cancel and reorder",
+        "wrong address",
+        "cancel delivery",
+        "customer unavailable",
+        "cancel pickup",
+        "cancel due to delay",
+        "cancel due to stock",
+        "system issue",
+        "order modification",
+        "cancel grocery order",
+        "cancel Instacart order",
+        "cancel duplicate",
+        "cancel on behalf of customer"
+      ],
+      "estimated_pct": 25,
+      "example_ids": [
+        9,
+        36,
+        80,
+        253,
+        667
+      ],
+      "L2_categories": [
+        {
+          "id": "L1_02_L2_01",
+          "name": "Duplicate Order Cancellations",
+          "description": "Requests to cancel duplicate orders placed in error or due to system glitches.",
+          "keywords": [
+            "duplicate order",
+            "accidental order",
+            "cancel duplicate",
+            "multiple orders"
+          ],
+          "example_ids": [
+            1,
+            4,
+            33,
+            217,
+            291
+          ]
+        },
+        {
+          "id": "L1_02_L2_02",
+          "name": "Unavailable Items Cancellations",
+          "description": "Requests to cancel orders due to unavailable items or dissatisfaction with substitutions.",
+          "keywords": [
+            "unavailable items",
+            "out of stock",
+            "no substitutions",
+            "cancel due to stock"
+          ],
+          "example_ids": [
+            2,
+            12,
+            25,
+            46,
+            243
+          ]
+        },
+        {
+          "id": "L1_02_L2_03",
+          "name": "Wrong Address Deliveries",
+          "description": "Issues related to orders delivered to the wrong address, including requests for redelivery, refunds, or resolution.",
+          "keywords": [
+            "wrong address",
+            "misdelivery",
+            "incorrect delivery location",
+            "redelivery"
+          ],
+          "example_ids": [
+            5,
+            8,
+            22,
+            44,
+            683
+          ]
+        },
+        {
+          "id": "L1_02_L2_04",
+          "name": "Customer-Initiated Cancellations",
+          "description": "Cancellations requested directly by customers for personal reasons, such as changes in plans or errors in the order.",
+          "keywords": [
+            "customer requested cancellation",
+            "cancel my order",
+            "change of plans",
+            "personal reasons"
+          ],
+          "example_ids": [
+            3,
+            45,
+            113,
+            313,
+            450
+          ]
+        },
+        {
+          "id": "L1_02_L2_05",
+          "name": "System or Technical Issues",
+          "description": "Cancellations or modifications due to system errors, technical glitches, or app malfunctions.",
+          "keywords": [
+            "system issue",
+            "technical problem",
+            "app error",
+            "checkout failure"
+          ],
+          "example_ids": [
+            21,
+            53,
+            227,
+            298,
+            1055
+          ]
+        },
+        {
+          "id": "L1_02_L2_06",
+          "name": "Payment and Billing Issues",
+          "description": "Cancellations or modifications related to payment failures, incorrect payment methods, or billing concerns.",
+          "keywords": [
+            "payment failure",
+            "wrong payment method",
+            "billing issue",
+            "EBT"
+          ],
+          "example_ids": [
+            153,
+            156,
+            232,
+            674,
+            1058
+          ]
+        },
+        {
+          "id": "L1_02_L2_07",
+          "name": "Shopper or Driver Issues",
+          "description": "Cancellations or modifications due to issues with shoppers or delivery drivers, such as unprofessional behavior or inability to fulfill orders.",
+          "keywords": [
+            "shopper issue",
+            "driver issue",
+            "unprofessional behavior",
+            "delivery driver"
+          ],
+          "example_ids": [
+            81,
+            120,
+            137,
+            548,
+            1052
+          ]
+        },
+        {
+          "id": "L1_02_L2_08",
+          "name": "Order Status and Verification",
+          "description": "Inquiries about the status of cancellations, confirmations, or reasons for cancellations.",
+          "keywords": [
+            "order status",
+            "cancellation reason",
+            "verify cancellation",
+            "order confirmation"
+          ],
+          "example_ids": [
+            13,
+            19,
+            55,
+            93,
+            250
+          ]
+        }
+      ]
+    },
+    {
+      "id": "L1_03",
+      "name": "Refunds and Compensation",
+      "description": "Covers requests for refunds or compensation due to missing items, incorrect orders, damaged goods, or service failures.",
+      "keywords": [
+        "refund request",
+        "compensation",
+        "missing items",
+        "damaged items",
+        "wrong order",
+        "refund approval",
+        "credit request",
+        "refund for undelivered order",
+        "refund for incorrect items",
+        "refund for damaged items",
+        "refund for spoiled items",
+        "refund for late delivery",
+        "refund for missing items",
+        "refund for wrong address",
+        "refund eligibility",
+        "refund process",
+        "refund for uncollected order",
+        "refund for poor quality",
+        "refund for overcharge",
+        "refund for substitutions"
+      ],
+      "estimated_pct": 20,
+      "example_ids": [
+        10,
+        25,
+        221,
+        300,
+        484
+      ],
+      "L2_categories": [
+        {
+          "id": "L1_03_L2_01",
+          "name": "Missing Items",
+          "description": "Covers requests for refunds or compensation due to items missing from an order, whether partially or entirely.",
+          "keywords": [
+            "missing items",
+            "items not received",
+            "undelivered items",
+            "missing products"
+          ],
+          "example_ids": [
+            13,
+            29,
+            47,
+            269,
+            401
+          ]
+        },
+        {
+          "id": "L1_03_L2_02",
+          "name": "Incorrect Items",
+          "description": "Covers requests for refunds or compensation due to receiving items that were not ordered or incorrect substitutions.",
+          "keywords": [
+            "wrong items",
+            "incorrect order",
+            "wrong product",
+            "unauthorized substitutions"
+          ],
+          "example_ids": [
+            1,
+            74,
+            133,
+            273,
+            497
+          ]
+        },
+        {
+          "id": "L1_03_L2_03",
+          "name": "Damaged Items",
+          "description": "Covers requests for refunds or compensation due to receiving damaged, spoiled, or unusable items.",
+          "keywords": [
+            "damaged items",
+            "spoiled items",
+            "moldy",
+            "broken packaging"
+          ],
+          "example_ids": [
+            2,
+            51,
+            114,
+            741,
+            828
+          ]
+        },
+        {
+          "id": "L1_03_L2_04",
+          "name": "Delivery Issues",
+          "description": "Covers requests for refunds or compensation due to issues with delivery, such as late deliveries, misdeliveries, or items left in unsuitable conditions.",
+          "keywords": [
+            "late delivery",
+            "wrong address",
+            "delivery delay",
+            "misdelivery"
+          ],
+          "example_ids": [
+            11,
+            207,
+            351,
+            496,
+            812
+          ]
+        },
+        {
+          "id": "L1_03_L2_05",
+          "name": "Order Cancellations",
+          "description": "Covers requests for refunds or compensation related to order cancellations, including cancellations due to missing items or customer dissatisfaction.",
+          "keywords": [
+            "order cancellation",
+            "cancel order",
+            "refund for canceled order"
+          ],
+          "example_ids": [
+            19,
+            95,
+            345,
+            504,
+            643
+          ]
+        },
+        {
+          "id": "L1_03_L2_06",
+          "name": "Shopper or Driver Issues",
+          "description": "Covers requests for refunds or compensation due to issues caused by shoppers or drivers, such as poor communication, unprofessional behavior, or repeated errors.",
+          "keywords": [
+            "shopper issue",
+            "driver issue",
+            "unprofessional behavior",
+            "poor communication"
+          ],
+          "example_ids": [
+            5,
+            49,
+            153,
+            520,
+            759
+          ]
+        },
+        {
+          "id": "L1_03_L2_07",
+          "name": "Refund Processing Errors",
+          "description": "Covers requests related to errors or delays in processing refunds, such as discrepancies in refund amounts or unresolved refund requests.",
+          "keywords": [
+            "refund error",
+            "refund delay",
+            "refund discrepancy",
+            "refund not received"
+          ],
+          "example_ids": [
+            297,
+            330,
+            563,
+            638,
+            763
+          ]
+        },
+        {
+          "id": "L1_03_L2_08",
+          "name": "Compensation for Service Failures",
+          "description": "Covers requests for compensation due to overall service failures, such as dissatisfaction with the experience, inconvenience caused, or repeated issues.",
+          "keywords": [
+            "compensation",
+            "service failure",
+            "dissatisfaction",
+            "inconvenience"
+          ],
+          "example_ids": [
+            16,
+            344,
+            397,
+            857,
+            882
+          ]
+        }
+      ]
+    },
+    {
+      "id": "L1_04",
+      "name": "Payment and Transaction Issues",
+      "description": "Covers issues related to payment processing, declined transactions, incorrect charges, and card-related problems.",
+      "keywords": [
+        "payment issue",
+        "declined transaction",
+        "insufficient funds",
+        "card declined",
+        "payment processing",
+        "incorrect charge",
+        "refund for payment",
+        "payment approval",
+        "card activation",
+        "payment error",
+        "overcharge",
+        "transaction stuck",
+        "payment assistance",
+        "payment confirmation",
+        "payment declined",
+        "card issue",
+        "payment troubleshooting",
+        "refund for payment error",
+        "card malfunction",
+        "payment discrepancy"
+      ],
+      "estimated_pct": 15,
+      "example_ids": [
+        15,
+        44,
+        130,
+        292,
+        463
+      ],
+      "L2_categories": [
+        {
+          "id": "L1_04_L2_01",
+          "name": "Insufficient Funds",
+          "description": "Issues where transactions fail due to insufficient funds on the payment card or account.",
+          "keywords": [
+            "insufficient funds",
+            "declined card",
+            "not enough balance",
+            "payment failed"
+          ],
+          "example_ids": [
+            2,
+            7,
+            24,
+            55,
+            96
+          ]
+        },
+        {
+          "id": "L1_04_L2_02",
+          "name": "Incorrect Charges",
+          "description": "Cases involving customers or retailers being charged incorrectly, including overcharges, double charges, or charges for unordered items.",
+          "keywords": [
+            "overcharged",
+            "double charge",
+            "incorrect charges",
+            "unauthorized charges"
+          ],
+          "example_ids": [
+            28,
+            76,
+            104,
+            205,
+            350
+          ]
+        },
+        {
+          "id": "L1_04_L2_03",
+          "name": "Card Activation or Assignment Issues",
+          "description": "Problems related to activating, assigning, or linking payment cards to devices or accounts.",
+          "keywords": [
+            "card activation",
+            "card assignment",
+            "linking card",
+            "new card"
+          ],
+          "example_ids": [
+            19,
+            116,
+            247,
+            320,
+            659
+          ]
+        },
+        {
+          "id": "L1_04_L2_04",
+          "name": "High Transaction Amounts",
+          "description": "Payment issues caused by transaction amounts exceeding card or system limits.",
+          "keywords": [
+            "amount too high",
+            "exceeded limit",
+            "high transaction amount"
+          ],
+          "example_ids": [
+            30,
+            146,
+            211,
+            593,
+            665
+          ]
+        },
+        {
+          "id": "L1_04_L2_05",
+          "name": "Refund and Reprocessing Issues",
+          "description": "Requests for refunds or issues with reprocessing payments for canceled or incomplete orders.",
+          "keywords": [
+            "refund",
+            "reprocess payment",
+            "partial refund",
+            "payment reversal"
+          ],
+          "example_ids": [
+            37,
+            104,
+            272,
+            371,
+            570
+          ]
+        },
+        {
+          "id": "L1_04_L2_06",
+          "name": "Order Cancellations Due to Payment Issues",
+          "description": "Orders canceled due to payment failures, including insufficient funds or declined transactions.",
+          "keywords": [
+            "order canceled",
+            "payment issue cancellation",
+            "declined order"
+          ],
+          "example_ids": [
+            21,
+            65,
+            223,
+            373,
+            487
+          ]
+        },
+        {
+          "id": "L1_04_L2_07",
+          "name": "Payment Processing Errors",
+          "description": "Technical issues during payment processing, such as app errors, barcode scanning problems, or system glitches.",
+          "keywords": [
+            "payment processing error",
+            "barcode issue",
+            "system glitch",
+            "technical error"
+          ],
+          "example_ids": [
+            36,
+            132,
+            217,
+            555,
+            649
+          ]
+        },
+        {
+          "id": "L1_04_L2_08",
+          "name": "Unpaid or Missing Payments",
+          "description": "Situations where payments are not recorded, remain unpaid, or are missing from the system despite order completion.",
+          "keywords": [
+            "unpaid order",
+            "missing payment",
+            "payment not recorded"
+          ],
+          "example_ids": [
+            63,
+            240,
+            279,
+            585,
+            653
+          ]
+        }
+      ]
+    },
+    {
+      "id": "L1_05",
+      "name": "Shopper and Driver Issues",
+      "description": "Covers complaints or requests related to shopper or driver behavior, performance, or assignment.",
+      "keywords": [
+        "shopper issue",
+        "driver issue",
+        "shopper behavior",
+        "driver behavior",
+        "shopper misconduct",
+        "driver misconduct",
+        "remove shopper",
+        "remove driver",
+        "shopper unprofessional",
+        "driver unprofessional",
+        "shopper reassignment",
+        "driver reassignment",
+        "shopper complaint",
+        "driver complaint",
+        "shopper performance",
+        "driver performance",
+        "shopper training",
+        "driver training",
+        "ban shopper",
+        "ban driver"
+      ],
+      "estimated_pct": 10,
+      "example_ids": [
+        49,
+        75,
+        113,
+        207,
+        379
+      ],
+      "L2_categories": [
+        {
+          "id": "L1_05_L2_01",
+          "name": "Shopper Misconduct",
+          "description": "Covers issues related to inappropriate, unprofessional, or fraudulent behavior by shoppers, including theft, improper handling of items, or policy violations.",
+          "keywords": [
+            "shopper misconduct",
+            "theft",
+            "unprofessional behavior",
+            "policy violation",
+            "fraud"
+          ],
+          "example_ids": [
+            19,
+            140,
+            284,
+            371,
+            375
+          ]
+        },
+        {
+          "id": "L1_05_L2_02",
+          "name": "Driver Misconduct",
+          "description": "Covers issues related to inappropriate or unprofessional behavior by drivers, such as misconduct during delivery, unsanitary conditions, or failure to follow instructions.",
+          "keywords": [
+            "driver misconduct",
+            "unprofessional behavior",
+            "unsanitary vehicle",
+            "delivery issues"
+          ],
+          "example_ids": [
+            6,
+            9,
+            354,
+            370,
+            381
+          ]
+        },
+        {
+          "id": "L1_05_L2_03",
+          "name": "Order Not Delivered",
+          "description": "Covers cases where orders were marked as delivered but were not received by the customer, including potential misdelivery or fraudulent marking of orders.",
+          "keywords": [
+            "order not delivered",
+            "missing order",
+            "marked as delivered",
+            "misdelivery"
+          ],
+          "example_ids": [
+            2,
+            66,
+            163,
+            199,
+            441
+          ]
+        },
+        {
+          "id": "L1_05_L2_04",
+          "name": "Order Delays",
+          "description": "Covers issues related to delayed deliveries or pickups, including inquiries about estimated delivery times or delays caused by shopper or driver issues.",
+          "keywords": [
+            "order delay",
+            "delayed delivery",
+            "late delivery",
+            "estimated delivery time"
+          ],
+          "example_ids": [
+            20,
+            70,
+            324,
+            345,
+            349
+          ]
+        },
+        {
+          "id": "L1_05_L2_05",
+          "name": "Shopper or Driver Reassignment",
+          "description": "Covers requests to reassign orders to a different shopper or driver due to performance issues, unresponsiveness, or customer dissatisfaction.",
+          "keywords": [
+            "reassign shopper",
+            "reassign driver",
+            "unassign shopper",
+            "unassign driver"
+          ],
+          "example_ids": [
+            8,
+            118,
+            156,
+            260,
+            262
+          ]
+        },
+        {
+          "id": "L1_05_L2_06",
+          "name": "Improper Item Handling",
+          "description": "Covers issues related to mishandling of items by shoppers or drivers, such as damaged goods, incorrect substitutions, or improper storage.",
+          "keywords": [
+            "damaged items",
+            "incorrect substitutions",
+            "improper storage",
+            "item handling"
+          ],
+          "example_ids": [
+            3,
+            309,
+            425,
+            453,
+            456
+          ]
+        },
+        {
+          "id": "L1_05_L2_07",
+          "name": "Unauthorized or Fraudulent Activity",
+          "description": "Covers cases of unauthorized actions by shoppers or drivers, such as adding unauthorized items, fraudulent transactions, or account misuse.",
+          "keywords": [
+            "unauthorized items",
+            "fraudulent activity",
+            "account misuse",
+            "unauthorized actions"
+          ],
+          "example_ids": [
+            28,
+            115,
+            242,
+            284,
+            496
+          ]
+        },
+        {
+          "id": "L1_05_L2_08",
+          "name": "Customer Complaints About Behavior",
+          "description": "Covers customer-reported complaints about shopper or driver behavior, including rudeness, inappropriate communication, or discomfort caused during interactions.",
+          "keywords": [
+            "customer complaint",
+            "rude behavior",
+            "inappropriate communication",
+            "customer discomfort"
+          ],
+          "example_ids": [
+            12,
+            23,
+            369,
+            373,
+            421
+          ]
+        }
+      ]
+    },
+    {
+      "id": "L1_06",
+      "name": "Technical and System Issues",
+      "description": "Covers technical issues with apps, devices, or systems impacting order processing, staging, or completion.",
+      "keywords": [
+        "technical issue",
+        "system issue",
+        "app issue",
+        "device issue",
+        "order stuck",
+        "system glitch",
+        "app malfunction",
+        "device malfunction",
+        "technical support",
+        "system error",
+        "staging issue",
+        "checkout issue",
+        "system troubleshooting",
+        "technical assistance",
+        "order processing issue",
+        "system outage",
+        "app freezing",
+        "device login issue",
+        "barcode issue",
+        "audit bypass"
+      ],
+      "estimated_pct": 10,
+      "example_ids": [
+        23,
+        45,
+        169,
+        323,
+        594
+      ],
+      "L2_categories": [
+        {
+          "id": "L1_06_L2_01",
+          "name": "Order Stuck in System",
+          "description": "Covers issues where orders are stuck at any stage in the system, such as shopping, checkout, staging, or delivery, preventing progress or completion.",
+          "keywords": [
+            "order stuck",
+            "stuck in system",
+            "stuck in shopping",
+            "stuck in checkout",
+            "stuck in staging",
+            "stuck in delivery"
+          ],
+          "example_ids": [
+            3,
+            9,
+            26,
+            108,
+            139
+          ]
+        },
+        {
+          "id": "L1_06_L2_02",
+          "name": "Order Cancellation Issues",
+          "description": "Covers issues related to the inability to cancel orders due to system errors or glitches, including requests for manual cancellation.",
+          "keywords": [
+            "cancel order",
+            "unable to cancel",
+            "manual cancellation",
+            "cancellation request"
+          ],
+          "example_ids": [
+            5,
+            56,
+            112,
+            143,
+            218
+          ]
+        },
+        {
+          "id": "L1_06_L2_03",
+          "name": "Device or App Malfunctions",
+          "description": "Covers issues caused by device or app malfunctions, such as freezing, login problems, app crashes, or unresponsive devices.",
+          "keywords": [
+            "device issue",
+            "app issue",
+            "app crash",
+            "login problem",
+            "unresponsive device",
+            "freezing"
+          ],
+          "example_ids": [
+            14,
+            37,
+            66,
+            106,
+            336
+          ]
+        },
+        {
+          "id": "L1_06_L2_04",
+          "name": "Payment and Refund Issues",
+          "description": "Covers issues related to payment processing, refunds, or payment discrepancies caused by system errors.",
+          "keywords": [
+            "payment issue",
+            "refund issue",
+            "payment processing",
+            "payment discrepancy",
+            "unable to process payment"
+          ],
+          "example_ids": [
+            4,
+            70,
+            302,
+            329,
+            500
+          ]
+        },
+        {
+          "id": "L1_06_L2_05",
+          "name": "Order Assignment or Reassignment Issues",
+          "description": "Covers issues where orders need to be assigned or reassigned due to system glitches, unavailable devices, or shopper errors.",
+          "keywords": [
+            "order reassignment",
+            "assign order",
+            "unassign order",
+            "order stuck on device"
+          ],
+          "example_ids": [
+            28,
+            87,
+            128,
+            181,
+            338
+          ]
+        },
+        {
+          "id": "L1_06_L2_06",
+          "name": "Caper Cart and Hardware Issues",
+          "description": "Covers issues specifically related to Caper Carts, tablets, or other hardware malfunctions, such as scanning problems, charging issues, or unresponsive screens.",
+          "keywords": [
+            "Caper Cart",
+            "cart issue",
+            "tablet issue",
+            "hardware issue",
+            "scanner issue",
+            "charging issue"
+          ],
+          "example_ids": [
+            133,
+            359,
+            375,
+            423,
+            440
+          ]
+        },
+        {
+          "id": "L1_06_L2_07",
+          "name": "Network and Connectivity Issues",
+          "description": "Covers issues caused by network outages, connectivity problems, or communication failures affecting order processing or device functionality.",
+          "keywords": [
+            "network issue",
+            "connectivity issue",
+            "network outage",
+            "communication failure"
+          ],
+          "example_ids": [
+            394,
+            460,
+            462,
+            473,
+            495
+          ]
+        },
+        {
+          "id": "L1_06_L2_08",
+          "name": "Order Processing Errors",
+          "description": "Covers issues where orders cannot be processed due to system glitches, such as errors during checkout, staging, or label printing.",
+          "keywords": [
+            "processing error",
+            "checkout error",
+            "staging error",
+            "label printing error",
+            "system glitch"
+          ],
+          "example_ids": [
+            33,
+            76,
+            104,
+            225,
+            252
+          ]
+        }
+      ]
+    }
+  ]
+}

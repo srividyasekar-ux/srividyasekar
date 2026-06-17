@@ -1,0 +1,277 @@
+{
+  "metadata": {
+    "total_records": 1000,
+    "date_created": "2026-06-15 22:13:11",
+    "channels": {
+      "phone": 700,
+      "email": 300
+    }
+  },
+  "L1_distribution": {
+    "L1_01": {
+      "name": "Order Status and Delivery Issues",
+      "description": "Covers inquiries related to order status, delivery delays, missing or incorrect deliveries, and related updates.",
+      "count": 253,
+      "percentage": 25.3
+    },
+    "L1_02": {
+      "name": "Order Modifications and Cancellations",
+      "description": "Covers requests to modify or cancel orders due to customer changes, unavailable items, or system issues.",
+      "count": 200,
+      "percentage": 20.0
+    },
+    "L1_03": {
+      "name": "Refunds and Compensation",
+      "description": "Covers requests for refunds or compensation due to missing items, incorrect orders, damaged goods, or service failures.",
+      "count": 86,
+      "percentage": 8.6
+    },
+    "L1_04": {
+      "name": "Payment and Transaction Issues",
+      "description": "Covers issues related to payment processing, declined transactions, incorrect charges, and card-related problems.",
+      "count": 70,
+      "percentage": 7.0
+    },
+    "L1_05": {
+      "name": "Shopper and Driver Issues",
+      "description": "Covers complaints or requests related to shopper or driver behavior, performance, or assignment.",
+      "count": 79,
+      "percentage": 7.9
+    },
+    "L1_06": {
+      "name": "Technical and System Issues",
+      "description": "Covers technical issues with apps, devices, or systems impacting order processing, staging, or completion.",
+      "count": 312,
+      "percentage": 31.2
+    }
+  },
+  "L2_distribution": {
+    "L1_01": {
+      "L1_01_L2_01": {
+        "name": "Order Status Inquiries",
+        "count": 97,
+        "percentage_within_l1": 38.34
+      },
+      "L1_01_L2_02": {
+        "name": "Delivery Delays",
+        "count": 60,
+        "percentage_within_l1": 23.72
+      },
+      "L1_01_L2_03": {
+        "name": "Missing or Incorrect Deliveries",
+        "count": 94,
+        "percentage_within_l1": 37.15
+      },
+      "L1_01_L2_06": {
+        "name": "Technical or App Issues",
+        "count": 1,
+        "percentage_within_l1": 0.4
+      },
+      "L1_01_L2_08": {
+        "name": "Order Modifications",
+        "count": 1,
+        "percentage_within_l1": 0.4
+      }
+    },
+    "L1_02": {
+      "L1_02_L2_01": {
+        "name": "Duplicate Order Cancellations",
+        "count": 2,
+        "percentage_within_l1": 1.0
+      },
+      "L1_02_L2_02": {
+        "name": "Unavailable Items Cancellations",
+        "count": 47,
+        "percentage_within_l1": 23.5
+      },
+      "L1_02_L2_03": {
+        "name": "Wrong Address Deliveries",
+        "count": 3,
+        "percentage_within_l1": 1.5
+      },
+      "L1_02_L2_04": {
+        "name": "Customer-Initiated Cancellations",
+        "count": 86,
+        "percentage_within_l1": 43.0
+      },
+      "L1_02_L2_05": {
+        "name": "System or Technical Issues",
+        "count": 22,
+        "percentage_within_l1": 11.0
+      },
+      "L1_02_L2_06": {
+        "name": "Payment and Billing Issues",
+        "count": 6,
+        "percentage_within_l1": 3.0
+      },
+      "L1_02_L2_07": {
+        "name": "Shopper or Driver Issues",
+        "count": 8,
+        "percentage_within_l1": 4.0
+      },
+      "L1_02_L2_08": {
+        "name": "Order Status and Verification",
+        "count": 26,
+        "percentage_within_l1": 13.0
+      }
+    },
+    "L1_03": {
+      "L1_03_L2_01": {
+        "name": "Missing Items",
+        "count": 14,
+        "percentage_within_l1": 16.28
+      },
+      "L1_03_L2_02": {
+        "name": "Incorrect Items",
+        "count": 15,
+        "percentage_within_l1": 17.44
+      },
+      "L1_03_L2_03": {
+        "name": "Damaged Items",
+        "count": 7,
+        "percentage_within_l1": 8.14
+      },
+      "L1_03_L2_04": {
+        "name": "Delivery Issues",
+        "count": 17,
+        "percentage_within_l1": 19.77
+      },
+      "L1_03_L2_05": {
+        "name": "Order Cancellations",
+        "count": 10,
+        "percentage_within_l1": 11.63
+      },
+      "L1_03_L2_06": {
+        "name": "Shopper or Driver Issues",
+        "count": 3,
+        "percentage_within_l1": 3.49
+      },
+      "L1_03_L2_07": {
+        "name": "Refund Processing Errors",
+        "count": 16,
+        "percentage_within_l1": 18.6
+      },
+      "L1_03_L2_08": {
+        "name": "Compensation for Service Failures",
+        "count": 4,
+        "percentage_within_l1": 4.65
+      }
+    },
+    "L1_04": {
+      "L1_04_L2_02": {
+        "name": "Incorrect Charges",
+        "count": 18,
+        "percentage_within_l1": 25.71
+      },
+      "L1_04_L2_03": {
+        "name": "Card Activation or Assignment Issues",
+        "count": 10,
+        "percentage_within_l1": 14.29
+      },
+      "L1_04_L2_04": {
+        "name": "High Transaction Amounts",
+        "count": 5,
+        "percentage_within_l1": 7.14
+      },
+      "L1_04_L2_05": {
+        "name": "Refund and Reprocessing Issues",
+        "count": 3,
+        "percentage_within_l1": 4.29
+      },
+      "L1_04_L2_06": {
+        "name": "Order Cancellations Due to Payment Issues",
+        "count": 2,
+        "percentage_within_l1": 2.86
+      },
+      "L1_04_L2_07": {
+        "name": "Payment Processing Errors",
+        "count": 21,
+        "percentage_within_l1": 30.0
+      },
+      "L1_04_L2_08": {
+        "name": "Unpaid or Missing Payments",
+        "count": 11,
+        "percentage_within_l1": 15.71
+      }
+    },
+    "L1_05": {
+      "L1_05_L2_01": {
+        "name": "Shopper Misconduct",
+        "count": 18,
+        "percentage_within_l1": 22.78
+      },
+      "L1_05_L2_02": {
+        "name": "Driver Misconduct",
+        "count": 6,
+        "percentage_within_l1": 7.59
+      },
+      "L1_05_L2_03": {
+        "name": "Order Not Delivered",
+        "count": 5,
+        "percentage_within_l1": 6.33
+      },
+      "L1_05_L2_05": {
+        "name": "Shopper or Driver Reassignment",
+        "count": 16,
+        "percentage_within_l1": 20.25
+      },
+      "L1_05_L2_06": {
+        "name": "Improper Item Handling",
+        "count": 8,
+        "percentage_within_l1": 10.13
+      },
+      "L1_05_L2_07": {
+        "name": "Unauthorized or Fraudulent Activity",
+        "count": 10,
+        "percentage_within_l1": 12.66
+      },
+      "L1_05_L2_08": {
+        "name": "Customer Complaints About Behavior",
+        "count": 16,
+        "percentage_within_l1": 20.25
+      }
+    },
+    "L1_06": {
+      "L1_06_L2_01": {
+        "name": "Order Stuck in System",
+        "count": 19,
+        "percentage_within_l1": 6.09
+      },
+      "L1_06_L2_02": {
+        "name": "Order Cancellation Issues",
+        "count": 3,
+        "percentage_within_l1": 0.96
+      },
+      "L1_06_L2_03": {
+        "name": "Device or App Malfunctions",
+        "count": 53,
+        "percentage_within_l1": 16.99
+      },
+      "L1_06_L2_04": {
+        "name": "Payment and Refund Issues",
+        "count": 8,
+        "percentage_within_l1": 2.56
+      },
+      "L1_06_L2_05": {
+        "name": "Order Assignment or Reassignment Issues",
+        "count": 10,
+        "percentage_within_l1": 3.21
+      },
+      "L1_06_L2_06": {
+        "name": "Caper Cart and Hardware Issues",
+        "count": 17,
+        "percentage_within_l1": 5.45
+      },
+      "L1_06_L2_07": {
+        "name": "Network and Connectivity Issues",
+        "count": 78,
+        "percentage_within_l1": 25.0
+      },
+      "L1_06_L2_08": {
+        "name": "Order Processing Errors",
+        "count": 124,
+        "percentage_within_l1": 39.74
+      }
+    }
+  }
+}
